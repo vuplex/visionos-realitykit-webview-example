@@ -75,3 +75,4 @@ crashlytics-build.properties
 .vscode
 Assets/Vuplex*
 build-*
+mono_crash*

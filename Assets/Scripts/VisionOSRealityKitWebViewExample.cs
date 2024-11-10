@@ -7,7 +7,7 @@ using Vuplex.WebView;
 /// Demonstrates how to use the VisionOSWebView.CreateInWindow() API to open a webview
 /// in a native visionOS (SwiftUI) window.
 /// </summary>
-public class WindowedWebViewExample : MonoBehaviour {
+public class VisionOSRealityKitWebViewExample : MonoBehaviour {
 
     IWebView webView;
 
@@ -35,8 +35,8 @@ public class WindowedWebViewExample : MonoBehaviour {
         // the user force quits it. If the app continues to run in the background and the user re-opens it from
         // the visionOS home view, then visionOS will only reopen the window that was open last (either the Volume or the webview
         // window, but not both). 
-        var volumeCamera = FindObjectOfType<VolumeCamera>();
-        volumeCamera.OnWindowEvent.AddListener(state => {
+        var volumeCamera = FindFirstObjectByType<VolumeCamera>();
+        volumeCamera.WindowStateChanged.AddListener((_, state) => {
             if (state.WindowEvent == VolumeCamera.WindowEvent.Closed) {
                 Application.Quit();
             }
