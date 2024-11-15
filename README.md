@@ -1,6 +1,6 @@
 # visionOS RealityKit WebView Example
 
-This Unity project demonstrates how to view and interact with web content on Apple Vision Pro using [Vuplex 3D WebView](https://developer.vuplex.com/webview/overview) with Unity's [RealityKit app mode](https://docs.unity3d.com/Packages/com.unity.xr.visionos@2.0/api/UnityEditor.XR.VisionOS.VisionOSSettings.AppMode.html?q=appmode) for visionOS. All you need to do is import [3D WebView for visionOS](https://store.vuplex.com/webview/visionos) into the project and then build the VisionOSRealityKitWebViewExample scene, which demonstrates how to use the [VisionOSWebView.CreateInWindow()](https://developer.vuplex.com/webview/VisionOSWebView#CreateInWindow) API to open a webview in a native visionOS (SwiftUI) window.
+This Unity project demonstrates how to view and interact with web content on Apple Vision Pro using [Vuplex 3D WebView](https://developer.vuplex.com/webview/overview) with Unity's [RealityKit app mode](https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@2.0/manual/visionOSPlatformOverview.html#realitykit-with-polyspatial) for visionOS. All you need to do is import [3D WebView for visionOS](https://store.vuplex.com/webview/visionos) into the project and then build the VisionOSRealityKitWebViewExample scene, which demonstrates how to use the [VisionOSWebView.CreateInWindow()](https://developer.vuplex.com/webview/VisionOSWebView#CreateInWindow) API to open a webview in a native visionOS (SwiftUI) window.
 
 ![Screenshot of running the project in the visionOS simulator](screenshot.png)
 
