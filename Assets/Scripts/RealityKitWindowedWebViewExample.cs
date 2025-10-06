@@ -7,7 +7,7 @@ using Vuplex.WebView;
 /// Demonstrates how to use the VisionOSWebView.CreateInWindow() API to open a webview
 /// in a native visionOS (SwiftUI) window.
 /// </summary>
-public class VisionOSRealityKitWebViewExample : MonoBehaviour {
+public class RealityKitWindowedWebViewExample : MonoBehaviour {
 
     IWebView webView;
 

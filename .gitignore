@@ -76,3 +76,4 @@ crashlytics-build.properties
 Assets/Vuplex*
 build-*
 mono_crash*
+Assets/XR/Temp*
